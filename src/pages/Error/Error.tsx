@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+// Check ->
 // import s from "./style.module.scss";
 
 export function Error() {
