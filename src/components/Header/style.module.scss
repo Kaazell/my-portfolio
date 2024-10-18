@@ -1,12 +1,13 @@
+@use "../../styles/variables";
+
 .header {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
     width: 100vw;
     height: 63px;
-    background-color: rgba(16, 18, 39, 0.37);
+    background-color: variables.$header;
     padding: 0 1.2rem;
 }
 

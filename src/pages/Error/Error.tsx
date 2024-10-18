@@ -1,14 +1,13 @@
-import { useNavigate } from "react-router-dom";
 // Check ->
-// import s from "./style.module.scss";
+import s from "./style.module.scss";
+import Button from "../../components/Button/Button";
 
 export function Error() {
-  const navigate = useNavigate();
   return (
-    <div>
+    <div className={s.container}>
       <h1>404</h1>
-      <h2>Oups! La page que vous demandez n'existe pas.</h2>
-      <p onClick={() => navigate("/")}>Retourner sur la page d'accueil</p>
+      <h2>Oups! Cette page n'existe pas.</h2>
+      <Button buttonName="Continuer l'exploration >" />
     </div>
   );
 }
