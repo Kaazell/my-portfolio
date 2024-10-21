@@ -3,10 +3,10 @@ import { slide as Menu } from "react-burger-menu";
 import "./style.scss";
 
 const Burger: React.FC = () => {
-  const showSettings = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    // Ajouter ici la logique pour les paramètres si nécessaire
-  };
+  // const showSettings = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  //   event.preventDefault();
+  //   // Ajouter ici la logique pour les paramètres si nécessaire
+  // };
 
   return (
     <Menu right noOverlay width={"100%"} pageWrapId={"page-wrap"}>
