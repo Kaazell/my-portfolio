@@ -2,6 +2,7 @@ import React from "react";
 import s from "./style.module.scss";
 import Button from "../../components/Button/Button";
 import StackList from "../../components/StackList/StackList";
+import WorkCards from "../../components/WorkCards/WorkCards";
 
 const Home: React.FC = () => {
   return (
@@ -19,6 +20,10 @@ const Home: React.FC = () => {
         <div className={s.stacklist_container}>
           <StackList />
         </div>
+      </section>
+      <section className={s.stack}>
+        <h3>&lt;Projets /&gt;</h3>
+        <WorkCards />
       </section>
     </>
   );

@@ -7,12 +7,15 @@ const StackList: React.FC = () => {
   useEffect(() => {
     const importAll = async () => {
       const imports = import.meta.glob<{ default: string }>(
-        "../../assets/stacks/*.{png,jpg,jpeg,svg,webp}"
+        "../../assets/img/stacks/*.{png,jpg,jpeg,svg,webp}"
       );
       const imageImports: { [key: string]: string } = {};
 
       for (const path in imports) {
-        const fileNameWithExtension = path.replace("../../assets/stacks/", "");
+        const fileNameWithExtension = path.replace(
+          "../../assets/img/stacks/",
+          ""
+        );
         const fileName = fileNameWithExtension.split(".")[0]; // Extract name before the dot
         const module = await imports[path]();
         imageImports[fileName] = module.default;
