@@ -7,7 +7,7 @@ const StackList: React.FC = () => {
   useEffect(() => {
     const importAll = async () => {
       const imports = import.meta.glob<{ default: string }>(
-        "../../assets/stacks/*.{png,jpg,jpeg,svg}"
+        "../../assets/stacks/*.{png,jpg,jpeg,svg,webp}"
       );
       const imageImports: { [key: string]: string } = {};
 
@@ -25,7 +25,7 @@ const StackList: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {Object.keys(images).map((key) => (
         <figure key={key} className={s.logo_container}>
           <div className={s.logo_background}>
@@ -34,7 +34,7 @@ const StackList: React.FC = () => {
           <figcaption>{key}</figcaption>
         </figure>
       ))}
-    </div>
+    </>
   );
 };
 

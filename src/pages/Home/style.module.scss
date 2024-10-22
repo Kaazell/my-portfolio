@@ -42,5 +42,7 @@ h3 {
     border-radius: 10px;
     box-shadow: variables.$blue-blurry;
     background-color: variables.$black-transparent;
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
