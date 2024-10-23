@@ -44,6 +44,111 @@
       ],
       "githubLink": "https://github.com/nom_utilisateur/projet2",
       "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
+    },
+    {
+      "id": 2,
+      "title": "Nom du Projet 2",
+      "shortDescription": "Une autre courte description.",
+      "longDescription": "Une autre description détaillée.",
+      "tags": ["Node.js", "Express", "MongoDB"],
+      "images": [
+        {
+          "url": "lien_vers_image_1.jpg",
+          "alt": "Description de l'image 1"
+        }
+      ],
+      "githubLink": "https://github.com/nom_utilisateur/projet2",
+      "websiteLink": "https://www.projet2.com"
     }
   ]
   

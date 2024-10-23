@@ -12,11 +12,9 @@ const WorkCards: React.FC = () => {
             alt={project.title}
             className={s.work_card_image}
           />
-          <div className={s.work_card_content}>
-            <h2 className={s.work_card_title}>
-              {project.title} - {project.shortDescription}
-            </h2>
-          </div>
+          <h2 className={s.work_card_title}>
+            {project.title} - {project.shortDescription}
+          </h2>
         </div>
       ))}
     </div>
