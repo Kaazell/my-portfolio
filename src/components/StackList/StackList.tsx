@@ -28,7 +28,7 @@ const StackList: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <div className={s.stacklist_container}>
       {Object.keys(images).map((key) => (
         <figure key={key} className={s.logo_container}>
           <div className={s.logo_background}>
@@ -37,7 +37,7 @@ const StackList: React.FC = () => {
           <figcaption>{key}</figcaption>
         </figure>
       ))}
-    </>
+    </div>
   );
 };
 

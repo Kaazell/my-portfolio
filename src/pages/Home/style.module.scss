@@ -36,13 +36,3 @@ h3 {
     flex-direction: column;
     align-items: center;
 }
-
-.stacklist_container {
-    width: 95vw;
-    border-radius: 10px;
-    box-shadow: variables.$blue-blurry;
-    background-color: variables.$black-transparent;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}

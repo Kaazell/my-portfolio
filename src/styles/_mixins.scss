@@ -1,0 +1,21 @@
+@use "./variables" as *;
+
+@mixin container {
+    width: 95vw;
+    border-radius: 10px;
+    box-shadow: $blue-blurry;
+    background-color: $black-transparent;
+}
+
+// check
+// @mixin responsive($property, $small, $medium, $large) {
+//     #{$property}: $small;
+
+//     @media (min-width: 768px) {
+//         #{$property}: $medium;
+//     }
+
+//     @media (min-width: 1024px) {
+//         #{$property}: $large;
+//     }
+// }

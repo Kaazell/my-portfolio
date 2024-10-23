@@ -17,9 +17,7 @@ const Home: React.FC = () => {
       </div>
       <section className={s.stack}>
         <h3>&lt;Compétences /&gt;</h3>
-        <div className={s.stacklist_container}>
-          <StackList />
-        </div>
+        <StackList />
       </section>
       <section className={s.stack}>
         <h3>&lt;Projets /&gt;</h3>

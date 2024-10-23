@@ -1,21 +1,21 @@
 import React from "react";
-import "./style.module.scss";
+import s from "./style.module.scss";
 import json from "../../assets/json/projects.json";
 
 const WorkCards: React.FC = () => {
   return (
-    <div className="work-cards">
+    <div className={s.work_cards}>
       {json.map((project) => (
-        <div key={project.id} className="work-card">
-          <div className="work-card__image-container"></div>
+        <div key={project.id} className={s.work_card}>
           <img
             src={project.images[0].url}
             alt={project.title}
-            className="work-card__image"
+            className={s.work_card_image}
           />
-          <div className="work-card__content">
-            <h2 className="work-card__title">{project.title}</h2>
-            <p className="work-card__description">{project.shortDescription}</p>
+          <div className={s.work_card_content}>
+            <h2 className={s.work_card_title}>
+              {project.title} - {project.shortDescription}
+            </h2>
           </div>
         </div>
       ))}
