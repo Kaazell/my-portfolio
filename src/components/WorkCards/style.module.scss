@@ -4,11 +4,8 @@
     display: flex;
     width: 100vw;
     overflow-x: hidden;
-    
     position: relative;
-    &:hover {
-        overflow-x: overlay;
-    }
+    overflow-x: overlay;
 }
 .work_card {
     @include container;
