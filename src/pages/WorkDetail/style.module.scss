@@ -1,0 +1,41 @@
+@use "../../styles/variables";
+@use "../../styles/mixins";
+
+.main_container {
+    padding: 10px;
+    background-color: variables.$black-transparent;
+    h1 {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+}
+
+.tag_container {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    > div {
+    margin-bottom: 5px;
+    }
+}
+
+.image_container {
+    @include mixins.container;
+    height: 300px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    img {
+        object-fit: cover;
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 10px;
+    }
+}

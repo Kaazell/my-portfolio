@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Booki",
       "shortDescription": "Intégration Web",
-      "longDescription": "Ce projet consiste à créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. L'objectif principal est d'intégrer une interface responsive en suivant les maquettes Figma fournies pour les versions mobile, tablette et desktop. Les images et une note de synthèse sur les spécificités du projet sont également à disposition. Le projet encourage à ne pas utiliser l'outil code de Figma, mais à écrire son propre code HTML et CSS, ce qui permet de mieux comprendre la structure et le style du code pour répondre aux exigences de design. Ce travail développe des compétences essentielles en design responsive, garantissant que la page d'accueil s'adapte bien à toutes les tailles d'écran. Ces compétences sont cruciales dans le développement web moderne, assurant une expérience utilisateur optimale sur divers appareils et posant les bases pour devenir un développeur front-end compétent.",
+      "longDescription": "Ce projet consiste à créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. L'objectif principal est d'intégrer une interface responsive en suivant les maquettes Figma fournies pour les versions mobile, tablette et desktop. Les images et une note de synthèse sur les spécificités du projet sont également à disposition.",
       "tags": ["HTML", "CSS", "Git"],
       "images": [
         {

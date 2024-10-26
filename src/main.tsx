@@ -6,6 +6,7 @@ import { Error } from "./pages/Error/Error.tsx";
 
 import "./index.css";
 import Home from "./pages/Home/Home.tsx";
+import WorkDetail from "./pages/WorkDetail/WorkDetail.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
+          <Route path="/work/:id" element={<WorkDetail />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>

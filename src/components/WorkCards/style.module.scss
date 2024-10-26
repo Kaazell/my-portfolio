@@ -8,31 +8,41 @@
     overflow-x: overlay;
 }
 .work_card {
-    &:first-child {
-        margin-left: 25px;
-    }
     @include container;
     cursor: pointer;
     min-width: 85vw;
+    min-height: 306px;
+    max-height: 306px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    &:first-child {
+        margin-left: 25px;
+    }
     img {
         border-radius: 10px 10px 0 0;
         padding: 5px;
         width: 100%;
-        height: 261px;
+        height: 260px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: $black-transparent;
         object-fit: cover;
     }
-    h2 {
+    h4 {
         font-size: 1rem;
         text-align: center;
         font-weight: 400;
     }
+}
+
+.card_details {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
