@@ -5,9 +5,10 @@
     font-family: variables.$primary-font;
     background: variables.$button-gradient;
     color: white;
+    text-decoration: none;
     border-radius: 10px;
     border: none;
-    width: 180px;
+    width: 190px;
     margin: 20px auto;
     padding: 15px 30px;
     transition: box-shadow 0.3s ease;

@@ -7,23 +7,23 @@ import WorkCards from "../../components/WorkCards/WorkCards";
 const Home: React.FC = () => {
   return (
     <>
-      <div className={s.landing}>
+      <div className={s.landing} id="home_section">
         <h2>Développeur FullStack</h2>
         <p>
-          J'utilise principlaement React et NodeJS pour concevoir des solutions
-          modernes et efficaces
+          J'utilise principalement React et NodeJS pour concevoir des solutions
+          modernes et efficaces.
         </p>
-        <Button buttonName="Prendre RDV >" />
+        <Button buttonName="Prendre RDV >" destination="#contact_form" />
       </div>
-      <section className={s.stack}>
+      <section className={s.stack} id="skills_section">
         <h3>&lt;Compétences /&gt;</h3>
         <StackList />
       </section>
-      <section className={s.stack}>
+      <section className={s.stack} id="portfolio_section">
         <h3>&lt;Projets /&gt;</h3>
         <WorkCards />
       </section>
-      <section className={s.form_container}>
+      <section className={s.form_container} id="contact_form">
         <h3>&lt;Contact /&gt;</h3>
         <form
           className={s.contact_form}
