@@ -12,7 +12,10 @@ const WorkCards: React.FC = () => {
         <div
           key={`${project.id}-${project.title}-${index}`} // Clé mise à jour pour plus d'unicité
           className={s.work_card}
-          onClick={() => navigate("/work/" + project.id)}
+          onClick={() => {
+            navigate("/work/" + project.id);
+            window.scrollTo(0, 0);
+          }}
         >
           <img
             src={project.images[0].url}
