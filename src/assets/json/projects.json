@@ -7,23 +7,23 @@
       "tags": ["HTML", "CSS", "Git"],
       "images": [
         {
-          "url": "https://github.com/Kaazell/p2-booki/blob/main/booki1.png?raw=true",
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki1.webp",
           "alt": "Screenshot du site Booki 1"
         },
         {
-          "url": "https://github.com/Kaazell/p2-booki/blob/main/booki2.png?raw=true",
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki2.webp",
           "alt": "Screenshot du site Booki 2"
         },
         {
-          "url": "https://github.com/Kaazell/p2-booki/blob/main/booki3.png?raw=true",
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki3.webp",
           "alt": "Screenshot du site Booki 3"
         },
         {
-          "url": "https://github.com/Kaazell/p2-booki/blob/main/booki4.png?raw=true",
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki4.webp",
           "alt": "Screenshot du site Booki 4"
         },
         {
-          "url": "https://github.com/Kaazell/p2-booki/blob/main/booki5.png?raw=true",
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki5.webp",
           "alt": "Screenshot du site Booki 5"
         }
       ],
