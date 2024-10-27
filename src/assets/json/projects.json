@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Booki",
       "shortDescription": "Intégration Web",
-      "longDescription": "Ce projet consiste à créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. L'objectif principal est d'intégrer une interface responsive en suivant les maquettes Figma fournies pour les versions mobile, tablette et desktop. Les images et une note de synthèse sur les spécificités du projet sont également à disposition.",
+      "longDescription": "Ce projet met en œuvre HTML et CSS pour créer une page d'accueil responsive d'une agence de voyage, en suivant les maquettes Figma pour mobile, tablette et desktop.",
       "tags": ["HTML", "CSS", "Git"],
       "images": [
         {
@@ -33,122 +33,107 @@
     {
       "id": 2,
       "title": "Sophie Bluel",
-      "shortDescription": "Portfolio",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
+      "shortDescription": "Javascript",
+      "longDescription": "Création d'un site vitrine dynamique pour une illustratrice freelance. Il permet à l'artiste de présenter son travail et de recevoir des messages de clients potentiels.",
+      "tags": ["HTML", "CSS", "Javascript"],
       "images": [
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie1.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie2.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie3.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie4.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
         }
       ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
+      "githubLink": "https://github.com/Kaazell/p3-sophie-portfolio",
+      "websiteLink": ""
     },
     {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
+      "id": 3,
+      "title": "Nina Carducci",
+      "shortDescription": "Optimisation",
+      "longDescription": "Optimisation du référencement (SEO) et de l'accessibilité d'un site web en utilisant des outils comme Lighthouse et Wave pour améliorer les performances et la visibilité.",
+      "tags": ["SEO", "Javascript", "Accessibilité", "Lighthouse", "Wave"],
       "images": [
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina1.webp",
+          "alt": "Screenshot du site de Nina Carducci"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina2.webp",
+          "alt": "Screenshot du site de Nina Carducci"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina3.webp",
+          "alt": "Screenshot du site de Nina Carducci"
         }
       ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
+      "githubLink": "https://github.com/Kaazell/p5-nina",
+      "websiteLink": "https://p5-nina.vercel.app/"
     },
     {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
+      "id": 4,
+      "title": "Kasa",
+      "shortDescription": "React",
+      "longDescription": "Implémentation du front-end d'une application avec React et React Router pour une expérience utilisateur moderne et réactive, en utilisant des données simulées et des maquettes fournies.",
+      "tags": ["React", "SCSS", "Javascript"],
       "images": [
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa1.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa2.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa3.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa4.webp",
+          "alt": "Screenshot du site Kasa"
         }
       ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
+      "githubLink": "https://github.com/Kaazell/p6-kasa",
+      "websiteLink": "https://p6-kasa-omega.vercel.app/"
     },
     {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
+      "id": 5,
+      "title": "Mon Vieux Grimoire",
+      "shortDescription": "NodeJS",
+      "longDescription": "Développement d'une API RESTful avec Node.js et Express pour gérer des livres et des auteurs, en utilisant une base de données MongoDB pour stocker les données.",
+      "tags": ["NodeJS", "Express", "MongoDB"],
       "images": [
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
-        }
-      ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
-    },
-    {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
-      "images": [
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire1.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
-        }
-      ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
-    },
-    {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
-      "images": [
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire2.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
-        }
-      ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
-    },
-    {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
-      "images": [
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire3.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
-        }
-      ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
-    },
-    {
-      "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
-      "longDescription": "Une autre description détaillée.",
-      "tags": ["Node.js", "Express", "MongoDB"],
-      "images": [
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire4.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
         {
-          "url": "lien_vers_image_1.jpg",
-          "alt": "Description de l'image 1"
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire5.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
         }
       ],
-      "githubLink": "https://github.com/nom_utilisateur/projet2",
-      "websiteLink": "https://www.projet2.com"
+      "githubLink": "https://github.com/Kaazell/p7-mon-vieux-grimoire",
+      "websiteLink": ""
     }
   ]
   
