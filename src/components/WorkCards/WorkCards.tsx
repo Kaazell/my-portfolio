@@ -8,9 +8,9 @@ const WorkCards: React.FC = () => {
 
   return (
     <div className={s.work_cards}>
-      {json.map((project) => (
+      {json.map((project, index) => (
         <div
-          key={`${project.id}-${project.title}`}
+          key={`${project.id}-${project.title}-${index}`} // Clé mise à jour pour plus d'unicité
           className={s.work_card}
           onClick={() => navigate("/work/" + project.id)}
         >
