@@ -7,7 +7,10 @@ export function Error() {
     <div className={s.container}>
       <h1>404</h1>
       <h2>Oups! Cette page n'existe pas.</h2>
-      <Button buttonName="Continuer l'exploration >" />
+      <Button
+        destination="#home_section"
+        buttonName="Continuer l'exploration >"
+      />
     </div>
   );
 }

@@ -33,8 +33,14 @@ const WorkDetail: React.FC = () => {
             <Tag key={item} tag={item} />
           ))}
         </div>
-        <Button buttonName="Visiter le site" />
-        <Button buttonName="Voir le projet" />
+        <Button
+          destination={currentItem.websiteLink}
+          buttonName="Visiter le site"
+        />
+        <Button
+          destination={currentItem.githubLink}
+          buttonName="Voir le projet"
+        />
         <section className={s.gallery_container}>
           <h3>&lt;Galerie /&gt;</h3>
           <div className={s.map_container}>
