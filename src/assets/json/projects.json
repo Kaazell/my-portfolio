@@ -32,8 +32,8 @@
     },
     {
       "id": 2,
-      "title": "Nom du Projet 2",
-      "shortDescription": "Une autre courte description.",
+      "title": "Sophie Bluel",
+      "shortDescription": "Portfolio",
       "longDescription": "Une autre description détaillée.",
       "tags": ["Node.js", "Express", "MongoDB"],
       "images": [
