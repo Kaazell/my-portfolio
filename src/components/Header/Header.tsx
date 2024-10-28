@@ -20,55 +20,57 @@ export function Header() {
   }, []);
 
   return (
-    <header className={s.header}>
-      <h1 className={s.title}>&lt;ATEF LACHHAB /&gt;</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home_section">Accueil</a>
-          </li>
-          <li>
-            <a href="#skills_section">Compétences</a>
-          </li>
-          <li>
-            <a href="#portfolio_section">Projets</a>
-          </li>
-          <li>
-            <a href="#contact_form">Contact</a>
-          </li>
-          <li className={s.first_sm_icon}>
-            <a
-              href="https://github.com/Kaazell/"
-              aria-label="Github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/votreprofil"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/atef.u/"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-          </li>
-        </ul>
-      </nav>
-      {showBurger && <Burger />}
+    <header>
+      <div className={s.header}>
+        <h1 className={s.title}>&lt;ATEF LACHHAB /&gt;</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#home_section">Accueil</a>
+            </li>
+            <li>
+              <a href="#skills_section">Compétences</a>
+            </li>
+            <li>
+              <a href="#portfolio_section">Projets</a>
+            </li>
+            <li>
+              <a href="#contact_form">Contact</a>
+            </li>
+            <li className={s.first_sm_icon}>
+              <a
+                href="https://github.com/Kaazell/"
+                aria-label="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/votreprofil"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/atef.u/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        {showBurger && <Burger />}
+      </div>
     </header>
   );
 }

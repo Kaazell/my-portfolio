@@ -8,12 +8,14 @@ const Home: React.FC = () => {
   return (
     <>
       <div className={s.landing} id="home_section">
-        <h2>Développeur FullStack</h2>
-        <p>
-          J'utilise principalement React et NodeJS pour concevoir des solutions
-          modernes et efficaces.
-        </p>
-        <Button buttonName="Prendre RDV >" destination="#contact_form" />
+        <div className={s.landing_items}>
+          <h2>Développeur FullStack</h2>
+          <p>
+            J'utilise principalement React et NodeJS pour concevoir des
+            solutions modernes et efficaces.
+          </p>
+          <Button buttonName="Prendre RDV >" destination="#contact_form" />
+        </div>
       </div>
       <section className={s.stack} id="skills_section">
         <h3>&lt;Compétences /&gt;</h3>
