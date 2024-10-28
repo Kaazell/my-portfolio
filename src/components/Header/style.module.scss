@@ -5,11 +5,14 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
-    width: 100vw;
+    width: 100%;
     height: 63px;
     background-color: variables.$header;
     padding: 0 1.2rem;
+
 }
+
+
 
 .title {
     font-size: 1.3em;
@@ -18,19 +21,26 @@
     margin:auto 0;
 }
 
-nav {
-border: 2px solid white;
-}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Pour retirer les puces des éléments de liste */
+    padding: 0; /* Pour enlever le padding par défaut */
+    gap: 1rem; /* Ajustez la valeur selon l'espacement souhaité */
 
-li {
-    list-style-type: none;
-    display: inline;
-    margin: 0 1rem;
 }
-
+  
 a {
     text-decoration: none;
     color: white;
     font-size: 1.1em;
     font-weight: 500;
 }
+
+.social_medias {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+
