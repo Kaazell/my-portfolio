@@ -9,10 +9,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export function Header() {
-  const [showBurger, setShowBurger] = useState(window.innerWidth <= 750);
+  const [showBurger, setShowBurger] = useState(window.innerWidth <= 850);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 750px)");
+    const mediaQuery = window.matchMedia("(max-width: 850px)");
     const handleMediaChange = () => setShowBurger(mediaQuery.matches);
     mediaQuery.addEventListener("change", handleMediaChange);
 
@@ -36,7 +36,7 @@ export function Header() {
           <li>
             <a href="#contact_form">Contact</a>
           </li>
-          <li>
+          <li className={s.first_sm_icon}>
             <a
               href="https://github.com/Kaazell/"
               aria-label="Github"

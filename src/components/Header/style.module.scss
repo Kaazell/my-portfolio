@@ -37,6 +37,10 @@ a {
     font-weight: 500;
 }
 
+.first_sm_icon {
+    margin-left: 10px;
+}
+
 .social_medias {
     display: flex;
     justify-content: flex-end;
@@ -44,3 +48,8 @@ a {
 }
 
 
+@media screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+}
