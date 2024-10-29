@@ -1,5 +1,10 @@
 @use "../../styles/variables" as *;
 @use "../../styles/mixins" as *;
+
+.desktop {
+    display: none;
+}
+
 .work_cards {
     display: flex;
     width: 100vw;
@@ -60,10 +65,17 @@
             margin-left: 10px;
         }
         h4 {
+            margin-top: 2px;
             text-align: left;
+        }
+        p {
+            font-size: 12px;
         }
     }
     .card_details {
         justify-content: space-between;
+    }
+    .desktop {
+        display: block;
     }
 }

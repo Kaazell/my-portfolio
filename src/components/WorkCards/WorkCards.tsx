@@ -28,7 +28,7 @@ const WorkCards: React.FC = () => {
               {project.title} - {project.shortDescription}
             </h4>
             <p className={s.desktop}>{project.longDescription}</p>
-            <div className={s.tag_container}>
+            <div className={(s.tag_container, s.desktop)}>
               {project.tags.map((item) => (
                 <Tag key={item} tag={item} />
               ))}
