@@ -2,6 +2,7 @@ import React from "react";
 import s from "./style.module.scss";
 import json from "../../assets/json/projects.json";
 import { useNavigate } from "react-router-dom";
+import Tag from "../Tag/Tag";
 
 const WorkCards: React.FC = () => {
   const navigate = useNavigate();
@@ -26,6 +27,12 @@ const WorkCards: React.FC = () => {
             <h4>
               {project.title} - {project.shortDescription}
             </h4>
+            <p className={s.desktop}>{project.longDescription}</p>
+            <div className={s.tag_container}>
+              {project.tags.map((item) => (
+                <Tag key={item} tag={item} />
+              ))}
+            </div>
           </div>
         </div>
       ))}

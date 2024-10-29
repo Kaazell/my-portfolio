@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 @mixin container {
-    width: 95vw;
+    width: 100%;
     border-radius: 10px;
     box-shadow: $blue-blurry;
     background-color: $black-transparent;

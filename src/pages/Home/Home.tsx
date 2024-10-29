@@ -17,33 +17,40 @@ const Home: React.FC = () => {
           <Button buttonName="Prendre RDV >" destination="#contact_form" />
         </div>
       </div>
-      <section className={s.stack} id="skills_section">
-        <h3>&lt;Compétences /&gt;</h3>
-        <StackList />
-      </section>
-      <section className={s.stack} id="portfolio_section">
-        <h3>&lt;Projets /&gt;</h3>
-        <WorkCards />
-      </section>
-      <section className={s.form_container} id="contact_form">
-        <h3>&lt;Contact /&gt;</h3>
-        <form
-          className={s.contact_form}
-          action="https://formsubmit.co/atef.lachhab1@gmail.com"
-          method="POST"
-        >
-          <input type="text" name="name" placeholder="Votre nom" required />
-          <input type="email" name="email" placeholder="Votre email" required />
-          <textarea
-            name="message"
-            placeholder="Votre message"
-            rows={10}
-            cols={60}
-            required
-          ></textarea>
-          <button type="submit">Envoyer</button>
-        </form>
-      </section>
+      <div className={s.sections_container}>
+        <section className={s.stack} id="skills_section">
+          <h3 style={{ textAlign: "left" }}>&lt;Compétences /&gt;</h3>{" "}
+          <StackList />
+        </section>
+        <section className={s.works} id="portfolio_section">
+          <h3>&lt;Projets /&gt;</h3>
+          <WorkCards />
+        </section>
+        <section className={s.form_container} id="contact_form">
+          <h3>&lt;Contact /&gt;</h3>
+          <form
+            className={s.contact_form}
+            action="https://formsubmit.co/atef.lachhab1@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="name" placeholder="Votre nom" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Votre message"
+              rows={10}
+              cols={60}
+              required
+            ></textarea>
+            <button type="submit">Envoyer</button>
+          </form>
+        </section>
+      </div>
     </>
   );
 };

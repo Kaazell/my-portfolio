@@ -20,7 +20,7 @@ export function Header() {
   }, []);
 
   return (
-    <header>
+    <header id="header">
       <div className={s.header}>
         <h1 className={s.title}>&lt;ATEF LACHHAB /&gt;</h1>
         <nav>
@@ -49,7 +49,7 @@ export function Header() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/votreprofil"
+                href="https://www.linkedin.com/in/atef-lachhab-682184255/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
