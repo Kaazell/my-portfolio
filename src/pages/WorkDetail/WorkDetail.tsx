@@ -50,7 +50,7 @@ const WorkDetail: React.FC = () => {
           </div>
         </div>
 
-        <section style={{ marginTop: "50px" }}>
+        <div className={s.gallery_container}>
           <h3>&lt;Galerie /&gt;</h3>
           <div className={s.map_container}>
             {currentItem.images.map((item) => (
@@ -59,7 +59,7 @@ const WorkDetail: React.FC = () => {
               </div>
             ))}
           </div>
-        </section>
+        </div>
       </article>
     </div>
   );
