@@ -53,11 +53,19 @@ const WorkDetail: React.FC = () => {
         <div className={s.gallery_container}>
           <h3>&lt;Galerie /&gt;</h3>
           <div className={s.map_container}>
-            {currentItem.images.map((item) => (
-              <div key={item.url} className={s.image_container}>
-                <img key={item.url} src={item.url} alt={currentItem.title} />
-              </div>
-            ))}
+            {currentItem.images.map((item) => {
+              const cleanedUrl = item.url.replace(/^.*https/, "https"); // Supprime tout avant "https"
+
+              return (
+                <div
+                  key={item.url}
+                  className={s.image_container}
+                  onClick={() => (window.location.href = cleanedUrl)}
+                >
+                  <img key={item.url} src={item.url} alt={currentItem.title} />
+                </div>
+              );
+            })}
           </div>
         </div>
       </article>
