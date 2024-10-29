@@ -59,7 +59,7 @@
       "title": "Nina Carducci",
       "shortDescription": "Optimisation",
       "longDescription": "Optimisation du référencement (SEO) et de l'accessibilité d'un site web en utilisant des outils comme Lighthouse et Wave pour améliorer les performances et la visibilité.",
-      "tags": ["SEO", "Javascript", "Accessibilité", "Lighthouse", "Wave"],
+      "tags": ["SEO", "Javascript", "Lighthouse", "Wave"],
       "images": [
         {
           "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina1.webp",

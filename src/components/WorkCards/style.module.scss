@@ -16,7 +16,7 @@
     @include container;
     cursor: pointer;
     min-width: 300px;
-    min-height: 306px;
+    min-height: 300px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -61,15 +61,20 @@
         min-width: 280px;
         width: 280px;
         box-shadow: none;
+        min-height: 500px;
         &:first-child {
             margin-left: 10px;
         }
+        img {
+            height: 230px;
+        }
         h4 {
+            font-size: larger;
             margin-top: 2px;
             text-align: left;
         }
         p {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
     .card_details {
