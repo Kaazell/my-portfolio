@@ -41,6 +41,7 @@ export function Header() {
       <div className={s.header}>
         <h1 className={s.title}>
           <a
+            className={s.underline}
             href="/#home_section"
             onClick={() => handleLinkClick("home_section")}
           >
@@ -51,6 +52,7 @@ export function Header() {
           <ul>
             <li>
               <a
+                className={s.underline}
                 href="#home_section"
                 onClick={() => handleLinkClick("home_section")}
               >
@@ -59,6 +61,7 @@ export function Header() {
             </li>
             <li>
               <a
+                className={s.underline}
                 href="#skills_section"
                 onClick={() => handleLinkClick("skills_section")}
               >
@@ -67,6 +70,7 @@ export function Header() {
             </li>
             <li>
               <a
+                className={s.underline}
                 href="#portfolio_section"
                 onClick={() => handleLinkClick("portfolio_section")}
               >
@@ -75,6 +79,7 @@ export function Header() {
             </li>
             <li>
               <a
+                className={s.underline}
                 href="#contact_form"
                 onClick={() => handleLinkClick("contact_form")}
               >
@@ -83,6 +88,7 @@ export function Header() {
             </li>
             <li className={s.first_sm_icon}>
               <a
+                className={s.underline}
                 href="https://github.com/Kaazell/"
                 aria-label="Github"
                 target="_blank"
@@ -93,6 +99,7 @@ export function Header() {
             </li>
             <li>
               <a
+                className={s.underline}
                 href="https://www.linkedin.com/in/atef-lachhab-682184255/"
                 aria-label="LinkedIn"
                 target="_blank"
@@ -103,6 +110,7 @@ export function Header() {
             </li>
             <li>
               <a
+                className={s.underline}
                 href="https://www.instagram.com/atef.u/"
                 aria-label="Instagram"
                 target="_blank"
