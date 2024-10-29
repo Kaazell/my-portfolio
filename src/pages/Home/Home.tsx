@@ -3,6 +3,7 @@ import s from "./style.module.scss";
 import Button from "../../components/Button/Button";
 import StackList from "../../components/StackList/StackList";
 import WorkCards from "../../components/WorkCards/WorkCards";
+import Form from "../../components/Form/Form";
 
 const Home: React.FC = () => {
   return (
@@ -11,8 +12,10 @@ const Home: React.FC = () => {
         <div className={s.landing_items}>
           <h2>Développeur FullStack</h2>
           <p>
-            J'utilise principalement React et NodeJS pour concevoir des
-            solutions modernes et efficaces.
+            Passionné par le développement web, j'utilise principalement{" "}
+            <strong>React</strong> et <strong>NodeJS</strong> pour concevoir des
+            solutions modernes et efficaces en mettant l'accent sur l'expérience
+            utilisateur et la qualité du code.
           </p>
           <Button buttonName="Prendre RDV >" destination="#contact_form" />
         </div>
@@ -28,27 +31,7 @@ const Home: React.FC = () => {
         </section>
         <section className={s.form_container} id="contact_form">
           <h3>&lt;Contact /&gt;</h3>
-          <form
-            className={s.contact_form}
-            action="https://formsubmit.co/atef.lachhab1@gmail.com"
-            method="POST"
-          >
-            <input type="text" name="name" placeholder="Votre nom" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Votre email"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Votre message"
-              rows={10}
-              cols={60}
-              required
-            ></textarea>
-            <button type="submit">Envoyer</button>
-          </form>
+          <Form />
         </section>
       </div>
     </>
