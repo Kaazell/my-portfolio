@@ -22,29 +22,34 @@ const WorkDetail: React.FC = () => {
   }
 
   return (
-    <>
+    <div className={s.background}>
       <article className={s.main_container}>
-        <h1>
-          {currentItem.title} - {currentItem.shortDescription}
-        </h1>
-        <p>{currentItem.longDescription}</p>
-        <div className={s.tag_container}>
-          {currentItem.tags.map((item) => (
-            <Tag key={item} tag={item} />
-          ))}
+        <div className={s.description}>
+          <h1>
+            {currentItem.title} - {currentItem.shortDescription}
+          </h1>
+          <p>{currentItem.longDescription}</p>
+          <div className={s.tag_container}>
+            {currentItem.tags.map((item) => (
+              <Tag key={item} tag={item} />
+            ))}
+          </div>
+          <div className={s.buttons_container}>
+            {currentItem.websiteLink && (
+              <Button
+                destination={currentItem.websiteLink}
+                buttonName="Site Web"
+              />
+            )}
+            {currentItem.githubLink && (
+              <Button
+                destination={currentItem.githubLink}
+                buttonName="Code Source"
+              />
+            )}
+          </div>
         </div>
-        {currentItem.websiteLink && (
-          <Button
-            destination={currentItem.websiteLink}
-            buttonName="Visiter le site"
-          />
-        )}
-        {currentItem.githubLink && (
-          <Button
-            destination={currentItem.githubLink}
-            buttonName="Code Source"
-          />
-        )}
+
         <section style={{ marginTop: "50px" }}>
           <h3>&lt;Galerie /&gt;</h3>
           <div className={s.map_container}>
@@ -56,7 +61,7 @@ const WorkDetail: React.FC = () => {
           </div>
         </section>
       </article>
-    </>
+    </div>
   );
 };
 
