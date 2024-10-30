@@ -7,9 +7,27 @@ const Form: React.FC = () => {
       action="https://formsubmit.co/atef.lachhab1@gmail.com"
       method="POST"
     >
-      <input type="text" name="name" placeholder="Votre nom" required />
-      <input type="email" name="email" placeholder="Votre email" required />
+      <label htmlFor="name">Nom:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Votre nom"
+        required
+      />
+
+      <label htmlFor="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Votre email"
+        required
+      />
+
+      <label htmlFor="message">Message:</label>
       <textarea
+        id="message"
         name="message"
         placeholder="Votre message"
         rows={10}
