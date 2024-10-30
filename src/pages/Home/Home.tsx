@@ -33,6 +33,10 @@ const Home: React.FC = () => {
         </section>
         <section className={s.works} id="portfolio_section">
           <h3>&lt;Projets /&gt;</h3>
+          <p className={s.oc_text}>
+            Voici une liste des projets sur lesquels j'ai travaillé dans le
+            cadre de la formation :
+          </p>
           <WorkCards />
         </section>
         <section className={s.form_container} id="contact_form">
