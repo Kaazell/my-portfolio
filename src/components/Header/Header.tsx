@@ -3,11 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Burger from "../Burger/Burger";
 import s from "./style.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export function Header() {
   const [showBurger, setShowBurger] = useState(window.innerWidth <= 850);
