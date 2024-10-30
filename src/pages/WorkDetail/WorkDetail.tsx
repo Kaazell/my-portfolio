@@ -29,6 +29,7 @@ const WorkDetail: React.FC = () => {
             {currentItem.title} - {currentItem.shortDescription}
           </h1>
           <p>{currentItem.longDescription}</p>
+          <p>{currentItem.fullDescription}</p>
           <div className={s.tag_container}>
             {currentItem.tags.map((item) => (
               <Tag key={item} tag={item} />

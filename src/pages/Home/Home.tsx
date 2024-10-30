@@ -4,6 +4,7 @@ import Button from "../../components/Button/Button";
 import StackList from "../../components/StackList/StackList";
 import WorkCards from "../../components/WorkCards/WorkCards";
 import Form from "../../components/Form/Form";
+import oc from "../../assets/img/openclassrooms.png";
 
 const Home: React.FC = () => {
   return (
@@ -23,6 +24,11 @@ const Home: React.FC = () => {
       <div className={s.sections_container}>
         <section className={s.stack} id="skills_section">
           <h3 style={{ textAlign: "left" }}>&lt;Compétences /&gt;</h3>{" "}
+          <p className={s.oc_text}>
+            Grâce à la formation{" "}
+            <img className={s.oc_logo} src={oc} alt="OpenClassrooms" />, j'ai pu
+            developper ces compétences :
+          </p>
           <StackList />
         </section>
         <section className={s.works} id="portfolio_section">

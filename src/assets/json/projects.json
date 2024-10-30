@@ -4,6 +4,7 @@
       "title": "Booki",
       "shortDescription": "Intégration Web",
       "longDescription": "Ce projet met en œuvre HTML et CSS pour créer une page d'accueil responsive d'une agence de voyage, en suivant les maquettes Figma pour mobile, tablette et desktop.",
+      "fullDescription": "Ce projet met en œuvre HTML et CSS pour créer une page d'accueil responsive d'une agence de voyage, en suivant les maquettes Figma pour mobile, tablette et desktop. Il utilise Git pour versionner le code et Vercel pour déployer le site.",
       "tags": ["HTML", "CSS", "Git"],
       "images": [
         {
@@ -35,6 +36,7 @@
       "title": "Sophie Bluel",
       "shortDescription": "Javascript",
       "longDescription": "Création d'un site vitrine dynamique pour une illustratrice freelance. Il permet à l'artiste de présenter son travail et de recevoir des messages de clients potentiels.",
+      "fullDescription": "Création d'un site vitrine dynamique pour une illustratrice freelance. Il permet à l'artiste de présenter son travail et de recevoir des messages de clients potentiels. Le site est développé en HTML, CSS et Javascript, et utilise un formulaire de contact pour envoyer des emails.",
       "tags": ["HTML", "CSS", "Javascript"],
       "images": [
         {
@@ -59,6 +61,7 @@
       "title": "Nina Carducci",
       "shortDescription": "Optimisation",
       "longDescription": "Optimisation du référencement (SEO) et de l'accessibilité d'un site web en utilisant des outils comme Lighthouse et Wave pour améliorer les performances et la visibilité.",
+      "fullDescription": "Optimisation du référencement (SEO) et de l'accessibilité d'un site web en utilisant des outils comme Lighthouse et Wave pour améliorer les performances et la visibilité. Le site est développé en HTML, CSS et Javascript, et utilise des balises sémantiques pour structurer le contenu.",
       "tags": ["SEO", "Javascript", "Lighthouse", "Wave"],
       "images": [
         {
@@ -82,6 +85,7 @@
       "title": "Kasa",
       "shortDescription": "React",
       "longDescription": "Implémentation du front-end d'une application avec React et React Router pour une expérience utilisateur moderne et réactive, en utilisant des données simulées et des maquettes fournies.",
+      "fullDescription": "Implémentation du front-end d'une application avec React et React Router pour une expérience utilisateur moderne et réactive, en utilisant des données simulées et des maquettes fournies. Le site est développé en React, SCSS et Javascript, et utilise des composants réutilisables pour afficher les données.",
       "tags": ["React", "SCSS", "Javascript"],
       "images": [
         {
@@ -110,6 +114,7 @@
       "shortDescription": "NodeJS",
       "longDescription": "Développement d'une API RESTful avec Node.js et Express pour gérer des livres et des auteurs, en utilisant une base de données MongoDB pour stocker les données.",
       "tags": ["NodeJS", "Express", "MongoDB"],
+      "fullDescription": "Développement d'une API RESTful avec Node.js et Express pour gérer des livres et des auteurs, en utilisant une base de données MongoDB pour stocker les données. Le site est développé en Node.js, Express, MongoDB et Javascript, et utilise des routes pour accéder aux données.",
       "images": [
         {
           "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire1.webp",
