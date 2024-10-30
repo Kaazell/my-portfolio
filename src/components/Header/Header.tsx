@@ -108,17 +108,6 @@ export function Header() {
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
-            <li>
-              <a
-                className={s.underline}
-                href="https://www.instagram.com/atef.u/"
-                aria-label="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-            </li>
           </ul>
         </nav>
         {showBurger && <Burger />}
