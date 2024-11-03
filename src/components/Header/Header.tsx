@@ -96,7 +96,7 @@ export function Header() {
             <li>
               <a
                 className={s.underline}
-                href="https://www.linkedin.com/in/atef-lachhab-682184255/"
+                href="https://www.linkedin.com/in/atef-lachhab/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
