@@ -39,8 +39,8 @@ const Home: React.FC = () => {
           </p>
           <WorkCards />
         </section>
-        <section className={s.form_container} id="contact_form">
-          <h3>&lt;Contact /&gt;</h3>
+        <section className={s.form_section} id="contact_form">
+          <h3 style={{ textAlign: "left" }}>&lt;Contact /&gt;</h3>
           <Form />
         </section>
       </div>
