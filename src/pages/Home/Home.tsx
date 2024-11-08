@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           <WorkCards />
         </section>
         <section className={s.form_section} id="contact_form">
-          <h3 style={{ textAlign: "left" }}>&lt;Contact /&gt;</h3>
+          {/* <h3 style={{ textAlign: "left" }}>&lt;Contact /&gt;</h3> */}
           <Form />
         </section>
       </div>
