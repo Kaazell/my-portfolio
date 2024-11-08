@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             solutions modernes et efficaces en mettant l'accent sur l'expérience
             utilisateur et la qualité du code.
           </p>
-          <Button buttonName="Prendre RDV >" destination="#contact_form" />
+          <Button buttonName="Contactez-moi" destination="#contact_form" />
         </div>
       </div>
       <div className={s.sections_container}>
