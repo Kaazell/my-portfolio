@@ -9,6 +9,7 @@ const Home: React.FC = () => {
   return (
     <main>
       <section className={s.landing} id="home_section">
+        <div className={s.landing__center}>
         <h1 className={s.landing__title}>Développeur FullStack</h1>
         <p className={s.landing__introduction}>
           Passionné par le développement web, j'utilise principalement{" "}
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
           utilisateur et la qualité du code.
         </p>
         <Button buttonName="Contactez-moi" destination="#contact_form" />
+        </div>
       </section>
       <section className={(s.stack,  s.post_landing)} id="skills_section">
         <h2 className={s.stack__title}>&lt;Compétences /&gt;</h2>{" "}

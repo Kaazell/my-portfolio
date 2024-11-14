@@ -7,16 +7,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    box-shadow: variables.$blue-blurry;
+    align-items: center;
+    &__center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 90%;
+    }
     &__title {
         font-size: 3em;
+        max-width: 960px;
     }
     &__introduction {
         font-size: 1.4rem;
+        max-width: 960px;
     }
 }
 
 .post_landing {
+    max-width: 1160px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
