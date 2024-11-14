@@ -20,15 +20,15 @@ const Home: React.FC = () => {
         <Button buttonName="Contactez-moi" destination="#contact_form" />
         </div>
       </section>
-      <section className={(s.stack,  s.post_landing)} id="skills_section">
+      <section className={s.post_landing} id="skills_section">
         <h2 className={s.stack__title}>&lt;Compétences /&gt;</h2>{" "}
         <StackList />
       </section>
-      <section className={(s.works, s.post_landing)} id="portfolio_section">
+      {/* <section className={s.post_landing} id="portfolio_section">
         <h2 className={s.works__title}>&lt;Projets /&gt;</h2>
         <WorkCards />
-      </section>
-      <section className={(s.form, s.post_landing)} id="contact_form">
+      </section> */}
+      <section className={s.post_landing} id="contact_form">
         <Form />
       </section>
     </main>
