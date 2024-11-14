@@ -13,7 +13,7 @@ const Form: React.FC = () => {
           </a>
         </li>
         <li>
-          Par téléphone et WhatsApp :
+          Par téléphone & WhatsApp :
           <ul>
             <li>
               France:{" "}

@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import json from "../../assets/json/projects.json";
 import Tag from "../../components/Tag/Tag";
 import Button from "../../components/Button/Button";
+import { Carousel } from "../../components/Carousel/Carousel";
 
 const WorkDetail: React.FC = () => {
   const { id } = useParams();
@@ -22,15 +23,14 @@ const WorkDetail: React.FC = () => {
   }
 
   return (
-    <div className={s.background}>
-      <article className={s.main_container}>
+      <article className={s.container}>
         <div className={s.description}>
           <h1>
             {currentItem.title} - {currentItem.shortDescription}
           </h1>
           <p>{currentItem.longDescription}</p>
           <p>{currentItem.fullDescription}</p>
-          <div className={s.tag_container}>
+          <div className={s.tags_container}>
             {currentItem.tags.map((item) => (
               <Tag key={item} tag={item} />
             ))}
@@ -51,26 +51,11 @@ const WorkDetail: React.FC = () => {
           </div>
         </div>
 
-        <div className={s.gallery_container}>
-          <h3>&lt;Galerie /&gt;</h3>
-          <div className={s.map_container}>
-            {currentItem.images.map((item) => {
-              const cleanedUrl = item.url.replace(/^.*https/, "https"); // Supprime tout avant "https"
-
-              return (
-                <div
-                  key={item.url}
-                  className={s.image_container}
-                  onClick={() => (window.location.href = cleanedUrl)}
-                >
-                  <img key={item.url} src={item.url} alt={currentItem.title} />
-                </div>
-              );
-            })}
-          </div>
+        <div className={s.gallery}>
+          <h3 className={s.gallery__title}>&lt;Galerie /&gt;</h3>
+          <Carousel />
         </div>
       </article>
-    </div>
   );
 };
 

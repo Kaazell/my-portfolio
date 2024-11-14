@@ -1,7 +1,7 @@
 @use "../../styles/variables";
 @use "../../styles/mixins";
 
-.main_container {
+.container {
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
@@ -47,26 +47,24 @@
         border-radius: 10px;
     }
 }
-.gallery_container {
+.gallery {
     margin: 100px 0;
-}
-.buttons_container {
-    margin: 50px auto;
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 650px) {
-    .background {
-        background-color: rgba(0, 0, 0, 0.59);
-    }
-    .main_container {
+    .container {
         background-color: rgba(0,0,0, 0);
     }
     .description{
-        background-color: rgba(255, 252, 248, 0.04);
+        background-color: rgba(10, 9, 8, 0.807);
         padding: 50px;
         margin-top: 60px;
     }
-    .tag_container {
+    .tags_container {
         justify-content: flex-start;
     }
     
@@ -75,13 +73,4 @@
         margin: 0 auto;
         display: flex;
     }
-    .image_container {
-        width: 300px;
-    }
-    .map_container{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
 }
