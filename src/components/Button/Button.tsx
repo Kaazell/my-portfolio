@@ -7,8 +7,15 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ buttonName, destination }) => {
+  const isExternalLink = buttonName === "Site Web" || buttonName === "Code Source";
+
   return (
-    <a href={destination} className={s.button}>
+    <a
+      href={destination}
+      className={s.button}
+      target={isExternalLink ? "_blank" : "_self"}
+      rel={isExternalLink ? "noopener noreferrer" : undefined}
+    >
       {buttonName}
     </a>
   );

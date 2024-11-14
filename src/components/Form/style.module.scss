@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     h2 {
         font-size: 28px;
         margin: 20px;
@@ -14,5 +15,25 @@
     li {
         list-style: none;
         margin: 10px;
+    }
+}
+
+.underline{
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(234, 241, 123);
+        left: 0;
+        bottom: -2px;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 }
