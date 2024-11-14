@@ -106,7 +106,6 @@ export function Header() {
             </li>
           </ul>
         </nav>
-        {showBurger && <Burger />}
       </div>
     </header>
   );
