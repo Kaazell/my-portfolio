@@ -8,19 +8,17 @@ import oc from "../../assets/img/openclassrooms.png";
 
 const Home: React.FC = () => {
   return (
-    <>
-      <div className={s.landing} id="home_section">
-        <div className={s.landing_items}>
-          <h2>Développeur FullStack</h2>
-          <p>
-            Passionné par le développement web, j'utilise principalement{" "}
-            <strong>React</strong> et <strong>NodeJS</strong> pour concevoir des
-            solutions modernes et efficaces en mettant l'accent sur l'expérience
-            utilisateur et la qualité du code.
-          </p>
-          <Button buttonName="Contactez-moi" destination="#contact_form" />
-        </div>
-      </div>
+    <main>
+      <section className={s.landing} id="home_section">
+        <h1 className={s.landing__title}>Développeur FullStack</h1>
+        <p className={s.landing__introduction}>
+          Passionné par le développement web, j'utilise principalement{" "}
+          <strong>React</strong> et <strong>NodeJS</strong> pour concevoir des
+          solutions modernes et efficaces en mettant l'accent sur l'expérience
+          utilisateur et la qualité du code.
+        </p>
+        <Button buttonName="Contactez-moi" destination="#contact_form" />
+      </section>
       <div className={s.sections_container}>
         <section className={s.stack} id="skills_section">
           <h3 style={{ textAlign: "left" }}>&lt;Compétences /&gt;</h3>{" "}
@@ -44,7 +42,7 @@ const Home: React.FC = () => {
           <Form />
         </section>
       </div>
-    </>
+    </main>
   );
 };
 
