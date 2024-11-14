@@ -2,7 +2,7 @@ import React from "react";
 import s from "./style.module.scss";
 import Button from "../../components/Button/Button";
 import StackList from "../../components/StackList/StackList";
-import WorkCards from "../../components/WorkCards/WorkCards";
+import Card from "../../components/Card/Card";
 import Form from "../../components/Form/Form";
 
 const Home: React.FC = () => {
@@ -24,10 +24,10 @@ const Home: React.FC = () => {
         <h2 className={s.stack__title}>&lt;Compétences /&gt;</h2>{" "}
         <StackList />
       </section>
-      {/* <section className={s.post_landing} id="portfolio_section">
+      <section className={s.post_landing} id="portfolio_section">
         <h2 className={s.works__title}>&lt;Projets /&gt;</h2>
-        <WorkCards />
-      </section> */}
+        <Card />
+      </section>
       <section className={s.post_landing} id="contact_form">
         <Form />
       </section>

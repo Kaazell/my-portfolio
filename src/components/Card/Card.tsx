@@ -8,11 +8,11 @@ const WorkCards: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={s.work_cards}>
+    <div className={s.cards_container}>
       {json.map((project, index) => (
         <div
           key={`${project.id}-${project.title}-${index}`}
-          className={s.work_card}
+          className={s.card}
           onClick={() => {
             navigate("/work/" + project.id);
             window.scrollTo(0, 0);
@@ -21,14 +21,14 @@ const WorkCards: React.FC = () => {
           <img
             src={project.images[0].url}
             alt={project.title}
-            className={s.work_card_image}
+            className={s.card__img}
           />
-          <div className={s.card_details}>
-            <h4>
+          <div className={s.card__details}>
+            <h4 className={s.card__title}>
               {project.title} - {project.shortDescription}
             </h4>
-            <p className={s.desktop}>{project.longDescription}</p>
-            <div className={(s.tag_container, s.desktop)}>
+            <p className={`${s.desktop} ${s.card__description}`}>{project.longDescription}</p>
+            <div className={`${s.tag_container} ${s.desktop}`}>
               {project.tags.map((item) => (
                 <Tag key={item} tag={item} />
               ))}
