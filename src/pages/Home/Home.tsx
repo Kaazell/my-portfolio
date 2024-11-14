@@ -4,7 +4,6 @@ import Button from "../../components/Button/Button";
 import StackList from "../../components/StackList/StackList";
 import WorkCards from "../../components/WorkCards/WorkCards";
 import Form from "../../components/Form/Form";
-import oc from "../../assets/img/openclassrooms.png";
 
 const Home: React.FC = () => {
   return (
@@ -19,24 +18,15 @@ const Home: React.FC = () => {
         </p>
         <Button buttonName="Contactez-moi" destination="#contact_form" />
       </section>
-      <section className={s.stack} id="skills_section">
+      <section className={(s.stack,  s.post_landing)} id="skills_section">
         <h2 className={s.stack__title}>&lt;Compétences /&gt;</h2>{" "}
-        <p className={s.stack__text}>
-          Grâce à la formation{" "}
-          <img className={s.oc_logo} src={oc} alt="OpenClassrooms" />, j'ai pu
-          developper ces compétences :
-        </p>
         <StackList />
       </section>
-      <section className={s.works} id="portfolio_section">
+      <section className={(s.works, s.post_landing)} id="portfolio_section">
         <h2 className={s.works__title}>&lt;Projets /&gt;</h2>
-        <p className={s.works__text}>
-          Voici une liste des projets sur lesquels j'ai travaillé dans le
-          cadre de la formation :
-        </p>
         <WorkCards />
       </section>
-      <section className={s.form} id="contact_form">
+      <section className={(s.form, s.post_landing)} id="contact_form">
         <Form />
       </section>
     </main>
