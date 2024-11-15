@@ -8,10 +8,10 @@
     align-items: center;
     box-shadow: variables.$blue-blurry;
     height: 10rem;
-    background-color: black
-}
-
-.footer__text {
-    font-size: 18px;
-    color: white;
+    background-color: black;
+    margin-top: 5rem;
+    &__text {
+        font-size: 18px;
+        color: white;
+    }
 }
