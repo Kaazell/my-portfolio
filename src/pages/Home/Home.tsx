@@ -25,7 +25,7 @@ const Home: React.FC = () => {
         <StackList />
       </section>
       <section className={s.post_landing} id="portfolio_section">
-        <h2 className={s.works__title}>&lt;Projets /&gt;</h2>
+        <h2>&lt;Projets /&gt;</h2>
         <Card />
       </section>
       <section className={s.post_landing} id="contact_form">

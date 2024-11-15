@@ -8,9 +8,9 @@
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    color: white;
     font-size: 12px;
-    margin: 10px
+    margin: 10px;
+    color: #031085;
 }
 .left_button {
     left: 0;
@@ -79,8 +79,5 @@
     }
     .carousel_image {
         max-height: 223px;
-    }
-    .carousel_housing {
-        max-height: 415px;
     }
 }
