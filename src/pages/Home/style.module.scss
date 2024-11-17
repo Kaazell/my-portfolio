@@ -1,13 +1,14 @@
-@use "../../styles/variables";
+@use "../../styles/variables" as *;
 
 .landing {
-    background-color: variables.$black-transparent;
+    background-color: $black-transparent;
     height: calc(100vh - 63px);
     padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    box-shadow: $blue-blurry;
     &__center {
         display: flex;
         flex-direction: column;
