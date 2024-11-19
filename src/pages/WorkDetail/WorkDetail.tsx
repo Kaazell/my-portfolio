@@ -6,6 +6,7 @@ import json from "../../assets/json/projects.json";
 import Tag from "../../components/Tag/Tag";
 import Button from "../../components/Button/Button";
 import { Carousel } from "../../components/Carousel/Carousel";
+import WorkCards from "../../components/Card/Card";
 
 const WorkDetail: React.FC = () => {
   const { id } = useParams();
@@ -55,6 +56,8 @@ const WorkDetail: React.FC = () => {
           <h3 className={s.gallery__title}>&lt;Galerie /&gt;</h3>
           <Carousel />
         </div>
+
+        <WorkCards />
       </article>
   );
 };
