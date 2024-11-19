@@ -5,7 +5,35 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 40px 10px;
-
     line-height: 1.2;
     background-color: $black-transparent;
+    h2 {
+        margin: 20px auto;
+    }
+    strong {
+        color: rgb(251, 251, 39);
+        text-decoration: dotted;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .container {
+        @include container;
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px 30px;
+        line-height: 1.6;
+        h1 {
+            text-align: center;
+            margin: 40px auto;
+        }
+        h2 {
+            margin: 40px auto;
+        }
+    }
+    
 }
