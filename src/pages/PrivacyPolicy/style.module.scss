@@ -1,0 +1,11 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 10px;
+
+    line-height: 1.2;
+    background-color: $black-transparent;
+}

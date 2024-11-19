@@ -7,6 +7,7 @@ import { Error } from "./pages/Error/Error.tsx";
 import "./index.css";
 import Home from "./pages/Home/Home.tsx";
 import WorkDetail from "./pages/WorkDetail/WorkDetail.tsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -15,7 +16,8 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
           <Route path="/work/:id" element={<WorkDetail />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
+          <Route path="*" element={<Error />} />  `kj`
         </Route>
       </Routes>
     </BrowserRouter>
