@@ -139,6 +139,28 @@
       ],
       "githubLink": "https://github.com/Kaazell/p7-mon-vieux-grimoire",
       "websiteLink": ""
+    }, {
+      "id": 6,
+      "title": "Artiste Aquarelle",
+      "shortDescription": "Développement Web",
+      "longDescription": "Création d'un site web pour une artiste aquarelliste, mettant en avant ses œuvres et son univers artistique.",
+      "tags": ["React", "SCSS", "Figma"],
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/nicole-aquarelle/refs/heads/main/screenshots/aquarelle1.webp",
+          "alt": "Screenshot du site d'aquarelle 1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/nicole-aquarelle/refs/heads/main/screenshots/aquarelle2.webp",
+          "alt": "Screenshot du site d'aquarelle 2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/nicole-aquarelle/refs/heads/main/screenshots/aquarelle3.webp",
+          "alt": "Screenshot du site d'aquarelle 3"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/nicole-aquarelle",
+      "websiteLink": "https://nicole-aquarelle.vercel.app/"
     }
   ]
   
