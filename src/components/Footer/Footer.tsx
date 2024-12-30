@@ -5,7 +5,7 @@ export function Footer() {
     <footer className={s.footer}>
       <h2 className={s.footer__text}>Atef Lachhab</h2>
       <p className={s.footer__text}>
-        Copyright © <span id="current-year">2024</span>
+        Copyright © <span id="current-year">2025</span>
       </p>
     </footer>
   );

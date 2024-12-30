@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     <main>
       <section className={s.landing} id="home_section">
         <div className={s.landing__center}>
-          <h1 className={s.landing__title}>Développeur FullStack</h1>
+          <h1 className={s.landing__title}>Développeur Web</h1>
           <p className={s.landing__introduction}>
             Passionné par le développement web, j'utilise principalement{" "}
             <strong>React</strong> et <strong>NodeJS</strong> pour concevoir des
