@@ -16,18 +16,20 @@ const Form: React.FC = () => {
           Par téléphone & WhatsApp :
           <ul>
             <li>
-              France:{" "}
-              <a className={s.underline} href="tel:+33754325053">+33 7 54 32 50 53</a>
-            </li>
-            <li>
-              Canada:{" "}
-              <a className={s.underline} href="tel:+15793687160">+1 579 368 7160</a>
+              <a className={s.underline} href="tel:+15793687160">
+                +1 579 368 7160
+              </a>
             </li>
           </ul>
         </li>
         <li>
           Sur LinkedIn :{" "}
-          <a className={s.underline} href="https://www.linkedin.com/in/atef-lachhab" target="_blank" rel="noopener noreferrer">
+          <a
+            className={s.underline}
+            href="https://www.linkedin.com/in/atef-lachhab"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Atef Lachhab
           </a>
         </li>
